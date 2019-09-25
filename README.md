@@ -1,2 +1,2 @@
 # ugl
-ugl
+-XX:SurvivorRatio=8 -XX:+UseParNewGC  -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled  -XX:+UseCMSCompactAtFullCollection  -XX:CMSFullGCsBeforeCompaction=0  -XX:+CMSParallelRemarkEnabled  -XX:+DisableExplicitGC -XX:+UseCMSInitiatingOccupancyOnly -XX:CMSInitiatingOccupancyFraction=60 -XX:SoftRefLRUPolicyMSPerMB=0 -XX:+PrintGCDetails  -XX:+PrintGCDateStamps -XX:+PrintTenuringDistribution -XX:+PrintAdaptiveSizePolicy -XX:+PrintReferenceGC -XX:+UseGCLogFileRotation  -XX:+PrintClassHistogramAfterFullGC -XX:+PrintClassHistogramBeforeFullGC -XX:NumberOfGCLogFiles=10 -XX:GCLogFileSize=100M -Xloggc:/var/log/cloudera-scm-firehose/SERVICEMONITOR.gc.logvvvvvvvvvvvvvvvvvvvvv
