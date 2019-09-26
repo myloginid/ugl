@@ -6,6 +6,7 @@
 
 https://github.com/patric-r/jvmtop/releases/download/0.8.0/jvmtop-0.8.0.tar.gz
 
+``````
 Metadata Management
 This topic describes various knobs you can use to control how Impala manages its metadata in order to improve performance and scalability.
 
@@ -156,3 +157,4 @@ The event processing has been shutdown. No events will be processed.
 
 DISABLED
 The event processor is not configured to run.
+```
